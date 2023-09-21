@@ -23,7 +23,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - python
-    - cython
+    - cython <3
     - pip
   run:
     - python
